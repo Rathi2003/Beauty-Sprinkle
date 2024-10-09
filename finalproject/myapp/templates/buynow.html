@@ -60,6 +60,7 @@
  <form action="{% url 'initiate_payment' %}" method="post" >
     {% csrf_token %}
     <table>
+      <h3 style="color: deeppink;">Buy Now</h3><br><br>
       <tr>
       <td>Name: <br><br></td>
       <td><input type="text" name="name"><br><br></td>
